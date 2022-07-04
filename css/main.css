@@ -84,6 +84,8 @@
 /*==========  1.1 - @import(s)  ==========*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@300;400&family=Splash&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap);
 /***/
 /*==========  1.2 - Fonts  ==========*/
 /***/
@@ -10818,12 +10820,12 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Archivo Black";
 }
 body a,
 body input,
 body p {
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Archivo Black";
 }
 body h1,
 body h2,
@@ -10833,7 +10835,7 @@ body h5,
 body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Archivo-Black", Helvetica, sans-serif;
+  font-family: "Raleway";
   margin-bottom: 24px;
   margin-top: 24px;
 }
@@ -11022,7 +11024,7 @@ header.header-image .header-content .header-content-inner h5 {
     color: #a5e200;
   }
   .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
-    color: #238a9e;
+    color: #88ba00;
   }
 }
 /***/
@@ -11088,7 +11090,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f0f4dc;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Archivo Black";
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -11108,7 +11110,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Archivo Black";
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   background-color: #f0f4dc;
@@ -11199,7 +11201,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #f0f4dc;
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Archivo Black";
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -11216,7 +11218,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Archivo Black";
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11263,7 +11265,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Archivo Black";
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11366,7 +11368,7 @@ header.header-image .header-content .header-content-inner h5 {
   width: 40px;
   height: 40px;
   font-size: 32px;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Archivo Black";
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11857,7 +11859,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 }
 .t108-page time {
   font-size: 20px;
-  font-family: "Archivo-Black", Helvetica, sans-serif;
+  font-family: "Raleway";
   color: #222222;
   text-transform: uppercase;
 }
@@ -11940,7 +11942,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   width: 96px;
   height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
 }
@@ -12077,7 +12079,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   border: 2px solid #a5e200;
 }
 .t108-one-page #counters-services .icon-services:hover {
-  transform: rotateX(-45deg);
+  transform: rotate(-45deg);
   transition: 0.5s;
 }
 .t108-one-page #counters-services .counters-box {
@@ -12262,8 +12264,8 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   background-color: #a5e200;
 }
 #error-404 form .submit input[type=submit]:hover {
-  background-color: #238a9e;
-  border-color: #238a9e;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 @media (min-width: 768px) {
   #error-404 form {
@@ -12296,8 +12298,8 @@ form fieldset input[name=comment], form fieldset input[name=message] {
     background-color: #a5e200;
   }
   #error-404 form .submit input[type=submit]:hover {
-    background-color: #238a9e;
-    border-color: #238a9e;
+    background-color: #88ba00;
+    border-color: #88ba00;
   }
 }
 #error-404 a {

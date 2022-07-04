@@ -26,7 +26,7 @@
                 width: 96px;
                 height: 96px;
                 border-radius: 100%;
-                line-height: $base-font-size * 4.5;
+                line-height: 96px;
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
             }
@@ -187,8 +187,9 @@
 
         .icon-services:hover {
 
-            transform: rotateX(-45deg);
+            transform: rotate(-45deg);
             transition: 0.5s;
+
 
         }
 
